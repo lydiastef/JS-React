@@ -3,43 +3,46 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #f1faee;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #f1faee;
 }
 
 .Wrapper {
-  background: #000;
+  background: #457b9d;
   padding: 10px;
-  border-radius: 10%;
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 4px 0 #457b9d;
+  width: 250px;
+  border-radius: 5px;
 }
 
 .Input-wrapper {
   display: flex;
   justify-content: space-between; /*space between input and button*/
-  width: 200px;
+  width: 250px;
   align-items: center;
 }
 
 .Input-wrapper input {
-  border-radius: 4%;
   border: 0;
-  background-color: #ede7fe;
-  width: 160px;
+  background-color: #f1faee;
+  width: 200px;
   padding: 6px;
-  height: 20px;
+  height: 25px;
   margin: 10px;
+  border-radius: 5px;
 }
 
 .Input-wrapper button {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
-  padding: 0;
+  padding: 3px;
+  padding-bottom: 2px;
+  outline: none;
 }

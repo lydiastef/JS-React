@@ -2,12 +2,12 @@
     display: flex;
     justify-content: space-between;
     margin: 10px;
-    width: 180px;
+    width: 215px;
     height: 20px;
-    border: 1px solid #ede7f6;
-    border-radius: 2px;
+    border: 1px solid #f1faee;
+    border-radius: 5px;
     padding: 10px;
-    background: rgb(77, 14, 77);
+    background: #254066;
 }
 
 .Item p {
@@ -17,9 +17,11 @@
 }
 
 .Item button {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
-    padding: 2px;
     outline: none;
+    padding: 2px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
 }
